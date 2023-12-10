@@ -1,0 +1,18 @@
+COMMON_FLAGS="-Os -pipe -mcpu=cortex-a55+crc+crypto"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+
+CHOST="aarch64-unknown-linux-gnu"
+
+FEATURES="noman nodoc noinfo"
+
+USE="-man -ipv6 -X wayland vulkan opengl pipewire pulseaudio bluetooth jpeg dbus"
+
+VIDEO_CARDS="panfrost"
+
+CPU_FLAGS_ARM="edsp neon thumb vfp vfpv3 vfpv4 vfp-d32 aes sha1 sha2 crc32 v4 v5 v6 v7 v8 thumb2"
+
+EXTRA_FFMPEG_CONF='--enable-v4l2-request --enable-libv4l2 --enable-v4l2_m2m --enable-libudev'
+

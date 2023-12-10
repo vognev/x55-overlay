@@ -1,0 +1,12 @@
+diff --git a/Makefile.in b/Makefile.in
+index 52d1198..eb21306 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -589,6 +589,7 @@ include-server:
+ 	  SRCDIR="$(srcdir)"                            \
+ 	  CFLAGS="$(CFLAGS) $(PYTHON_CFLAGS)"           \
+ 	  CPPFLAGS="$(CPPFLAGS)"                        \
++	  CC="$(CC)" CPP="$(CPP)"                       \
+ 	  $(PYTHON) "$(srcdir)/include_server/setup.py" \
+ 	      build 					\
+ 	        --build-base="$(include_server_builddir)"  \

@@ -1,0 +1,3 @@
+# mask recent mpv since it is not building with libplacebo
+=media-video/mpv-0.37.0
+

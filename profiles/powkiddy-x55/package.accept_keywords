@@ -1,0 +1,16 @@
+<gui-apps/waybar-9999			**
+=dev-libs/date-3.0.0			**
+app-editors/vscode			~arm64
+media-sound/pavucontrol			~arm64
+<x11-apps/mesa-progs-9999		~arm64
+games-emulation/mupen64plus		**
+games-emulation/mupen64plus-core	**
+games-emulation/mupen64plus-audio-sdl	**
+games-emulation/mupen64plus-input-sdl	**
+games-emulation/mupen64plus-rsp-hle	**
+games-emulation/mupen64plus-ui-console	**
+games-emulation/m64py			**
+games-emulation/mupen64plus-video-glide64mk2	**
+games-emulation/mupen64plus-video-rice		**
+dev-python/PySDL2				**
+

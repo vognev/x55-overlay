@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm preinst prepare prerm pretend
+DESCRIPTION=Powkiddy X55 kernel and modules
+EAPI=8
+HOMEPAGE=https://kernel.org/
+INHERIT=mount-boot
+KEYWORDS=-* ~arm ~arm64
+LICENSE=GPL-2
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=https://git.kernel.org/torvalds/t/linux-6.7-rc4.tar.gz
+_eclasses_=mount-boot	3945d351ee3192381911f938f4ee527a
+_md5_=0581214876a847689e17b9c1cccf65ad
